@@ -1,0 +1,25 @@
+:root{--olive:#526b3f;--olive-dark:#35472a;--cream:#f7f5ef;--ink:#282a24}
+body{font-family:Arial,Helvetica,sans-serif;color:var(--ink)}
+a{color:var(--olive)}
+.navbar-brand span{color:var(--olive)}
+.breadcrumb a{text-decoration:none}
+.eyebrow{color:var(--olive);font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.zoom-frame{overflow:hidden;border-radius:.6rem}
+.zoom-frame img{display:block;width:100%;height:440px;object-fit:cover;transition:transform .35s}
+.zoom-frame:hover img{transform:scale(1.12)}
+.dish-details h1{font-weight:700}
+.rating{color:#d4a23c}
+.rating span{font-size:.9rem}
+.dish-price{margin:.8rem 0;color:var(--olive);font-size:1.7rem;font-weight:700}
+.btn-olive{background:var(--olive);border-color:var(--olive);color:#fff}
+.btn-olive:hover{background:var(--olive-dark);border-color:var(--olive-dark);color:#fff}
+.btn-outline-olive{border-color:var(--olive);color:var(--olive)}
+.btn-outline-olive:hover{background:var(--olive);color:#fff}
+.related-section{border-top:1px solid #e5e6df}
+.related-section a{text-decoration:none}
+.related-card{overflow:hidden;color:var(--ink);border:0;box-shadow:0 4px 18px #24271912}
+.related-card img{height:190px;object-fit:cover;transition:transform .25s}
+.related-card:hover img{transform:scale(1.04)}
+.site-footer{background:#293125;color:#d9ddcf}
+.site-footer a{color:#f4f0e4;text-decoration:none}
+@media(max-width:767px){.zoom-frame img{height:320px}}

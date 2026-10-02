@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Make a Reservation | Olive &amp; Thyme</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="reservation.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm"><div class="container"><a class="navbar-brand fw-bold" href="homepage.html">🥬 Olive <span>&amp; Thyme</span></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="mainNav"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="homepage.html">Home</a></li><li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li><li class="nav-item"><a class="nav-link active" href="reservation.html">Reservation</a></li><li class="nav-item"><a class="nav-link" href="signup.html">Register</a></li><li class="nav-item"><a class="nav-link" href="login.html">Login</a></li></ul></div></div></nav>
+  <div class="container"><nav aria-label="breadcrumb"><ol class="breadcrumb py-3 mb-0"><li class="breadcrumb-item"><a href="homepage.html">Home</a></li><li class="breadcrumb-item active" aria-current="page">Reservation</li></ol></nav></div>
+  <main class="container py-4"><section class="form-card mx-auto"><div class="text-center mb-4"><p class="eyebrow">We saved you a seat</p><h1>Make a reservation</h1><p class="text-muted">Tell us when you'd like to visit and we'll be ready for you.</p></div>
+    <form action="#" method="post">
+      <div class="mb-3"><label for="guestName" class="form-label">Name</label><input id="guestName" name="name" class="form-control" type="text" autocomplete="name" required></div>
+      <div class="mb-3"><label for="guestEmail" class="form-label">Email</label><input id="guestEmail" name="email" class="form-control" type="email" autocomplete="email" required></div>
+      <div class="mb-3"><label for="guestPhone" class="form-label">Phone number</label><input id="guestPhone" name="phone" class="form-control" type="tel" autocomplete="tel" required></div>
+      <div class="row g-3 mb-4"><div class="col-sm-6"><label for="bookingDate" class="form-label">Date</label><input id="bookingDate" name="date" class="form-control" type="date" required></div><div class="col-sm-6"><label for="bookingTime" class="form-label">Time</label><input id="bookingTime" name="time" class="form-control" type="time" required></div></div>
+      <button class="btn btn-olive w-100" type="submit">Request a table</button>
+    </form><p class="small text-muted text-center mt-3 mb-0">For same-day reservations, please call <a href="tel:+15550142700">(555) 014-2700</a>.</p>
+  </section></main>
+  <footer class="site-footer py-4 mt-5"><div class="container d-flex flex-wrap justify-content-between gap-2"><span>© 2026 Olive &amp; Thyme</span><span><a href="menu.html">Menu</a> · <a href="homepage.html">Home</a> · <a href="login.html">Login</a></span></div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

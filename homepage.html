@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Olive &amp; Thyme | Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+  <div class="topbar py-2">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center gap-2">
+      <div><a href="mailto:hello@oliveandthyme.com">hello@oliveandthyme.com</a><span class="mx-2">|</span><a href="tel:+15550142700">(555) 014-2700</a></div>
+      <div><span id="today">Welcome to Olive &amp; Thyme</span><span class="mx-2">|</span><a href="reservation.html">Make a reservation</a><span class="mx-2">|</span><a href="login.html">Log in</a><span class="mx-2">|</span><a href="signup.html">Register</a></div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="homepage.html">🥬 Olive <span>&amp; Thyme</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" href="homepage.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="reservation.html">Reservation</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-2"><a class="btn btn-sm btn-olive" href="login.html">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id="foodCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#foodCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#foodCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#foodCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&amp;fit=crop&amp;w=1900&amp;q=85" class="d-block w-100 hero-image" alt="Beautifully plated dinner"><div class="carousel-caption"><p class="text-uppercase small">Fresh, local, made with love</p><h1>A little taste of<br>the good life.</h1><a class="btn btn-olive mt-2" href="menu.html">Explore our menu</a></div></div>
+      <div class="carousel-item"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&amp;fit=crop&amp;w=1900&amp;q=85" class="d-block w-100 hero-image" alt="Fresh seasonal salad"><div class="carousel-caption"><p class="text-uppercase small">Seasonal ingredients</p><h2>Good food, good mood.</h2><a class="btn btn-olive mt-2" href="reservation.html">Book a table</a></div></div>
+      <div class="carousel-item"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&amp;fit=crop&amp;w=1900&amp;q=85" class="d-block w-100 hero-image" alt="Warm and welcoming restaurant"><div class="carousel-caption"><p class="text-uppercase small">Your table is waiting</p><h2>Come stay awhile.</h2><a class="btn btn-olive mt-2" href="reservation.html">Make a reservation</a></div></div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#foodCarousel" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+    <button class="carousel-control-next" type="button" data-bs-target="#foodCarousel" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+  </header>
+
+  <main>
+    <section class="section-space container">
+      <div class="text-center section-heading"><p class="eyebrow">Made fresh every day</p><h2>Our special dishes</h2><p>Simple ingredients, thoughtful cooking, and plenty of flavor.</p></div>
+      <div class="row g-4">
+        <div class="col-md-4"><article class="card dish-card h-100"><img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&amp;fit=crop&amp;w=800&amp;q=80" class="card-img-top" alt="Pasta with fresh herbs"><div class="card-body"><h3 class="h5">Garden Pesto Pasta</h3><p class="text-muted">Handmade pasta tossed with basil pesto, cherry tomatoes, and parmesan.</p><div class="d-flex justify-content-between align-items-center"><strong>$18</strong><a href="dish.html" class="btn btn-outline-olive btn-sm">Order now</a></div></div></article></div>
+        <div class="col-md-4"><article class="card dish-card h-100"><img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&amp;fit=crop&amp;w=800&amp;q=80" class="card-img-top" alt="Grilled meat with vegetables"><div class="card-body"><h3 class="h5">Rosemary Roast</h3><p class="text-muted">Tender roast with crispy potatoes, seasonal greens, and rosemary jus.</p><div class="d-flex justify-content-between align-items-center"><strong>$24</strong><a href="dish.html" class="btn btn-outline-olive btn-sm">Order now</a></div></div></article></div>
+        <div class="col-md-4"><article class="card dish-card h-100"><img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&amp;fit=crop&amp;w=800&amp;q=80" class="card-img-top" alt="Freshly baked pizza"><div class="card-body"><h3 class="h5">Market Garden Pizza</h3><p class="text-muted">Stone-baked crust, garden vegetables, mozzarella, and fragrant herbs.</p><div class="d-flex justify-content-between align-items-center"><strong>$20</strong><a href="dish.html" class="btn btn-outline-olive btn-sm">Order now</a></div></div></article></div>
+      </div>
+      <div class="text-center mt-4"><a class="btn btn-olive" href="menu.html">See the full menu</a></div>
+    </section>
+
+    <section class="quote-section section-space">
+      <div class="container"><div class="text-center section-heading"><p class="eyebrow">A few kind words</p><h2>From our guests</h2></div>
+        <div class="row justify-content-center g-4">
+          <div class="col-md-5"><blockquote class="review-card"><div class="stars">★★★★★</div><p>“Everything tasted fresh and thoughtful. The kind of place you want to come back to next week.”</p><footer>— Jamie R.</footer></blockquote></div>
+          <div class="col-md-5"><blockquote class="review-card"><div class="stars">★★★★★</div><p>“A lovely evening from start to finish. Friendly people, cozy atmosphere, and incredible pasta.”</p><footer>— Morgan L.</footer></blockquote></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space container">
+      <div class="text-center section-heading"><p class="eyebrow">Chef's favorites</p><h2>Recommended for you</h2></div>
+      <div class="row g-4">
+        <div class="col-md-6"><a class="feature-card" href="dish.html"><img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&amp;fit=crop&amp;w=1100&amp;q=80" alt="Creamy pasta with herbs"><span><small>CHEF'S PICK</small><strong>Wild Mushroom Tagliatelle</strong><em>Earthy mushrooms, cream, and fresh thyme · $22</em></span></a></div>
+        <div class="col-md-6"><a class="feature-card" href="dish.html"><img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&amp;fit=crop&amp;w=1100&amp;q=80" alt="Fresh berry dessert"><span><small>SOMETHING SWEET</small><strong>Berry Garden Pavlova</strong><em>Crisp meringue, whipped cream, and seasonal berries · $11</em></span></a></div>
+      </div>
+    </section>
+
+    <section class="newsletter section-space">
+      <div class="container text-center"><p class="eyebrow">A note from our kitchen</p><h2>Good things, delivered occasionally.</h2><p>Sign up for seasonal specials and a little restaurant news.</p><form class="newsletter-form mx-auto" action="#" method="post"><label class="visually-hidden" for="newsletterEmail">Email address</label><input id="newsletterEmail" class="form-control" type="email" placeholder="Your email address" required><button class="btn btn-olive" type="submit">Subscribe</button></form></div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact"><div class="container py-5"><div class="row g-4">
+    <div class="col-md-4" id="about"><h2 class="h4 text-white">Olive &amp; Thyme</h2><p>Neighborhood food, made with care. Come hungry, leave happy.</p><p><a href="mailto:hello@oliveandthyme.com">hello@oliveandthyme.com</a><br><a href="tel:+15550142700">(555) 014-2700</a></p></div>
+    <div class="col-md-4"><h3 class="h6 text-white">Opening hours</h3><p>Monday–Friday: 11:30 am–9 pm<br>Saturday–Sunday: 10 am–10 pm</p><a href="reservation.html">Reserve your table →</a></div>
+    <div class="col-md-4"><h3 class="h6 text-white">Come say hello</h3><p>24 Garden Lane<br>Brooklyn, NY 11201</p><p><a href="#">Instagram</a> &nbsp; <a href="#">Facebook</a> &nbsp; <a href="#">TikTok</a></p></div>
+  </div></div><div class="copyright py-3"><div class="container d-flex flex-wrap justify-content-between gap-2"><span>© 2026 Olive &amp; Thyme. All rights reserved.</span><span><a href="menu.html">Menu</a> · <a href="signup.html">Create account</a> · <a href="login.html">Login</a></span></div></div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script>document.getElementById("today").textContent = new Intl.DateTimeFormat(undefined, { dateStyle: "medium", timeStyle: "short" }).format(new Date());</script>
+</body>
+</html>

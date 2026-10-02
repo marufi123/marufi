@@ -1,0 +1,14 @@
+:root{--olive:#526b3f;--olive-dark:#35472a;--cream:#f7f5ef;--ink:#282a24}
+body{font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fbfbf8}
+a{color:var(--olive)}
+.navbar-brand span{color:var(--olive)}
+.breadcrumb a{text-decoration:none}
+.form-card{max-width:520px;padding:2.2rem;background:#fff;border-radius:.65rem;box-shadow:0 8px 30px #24271912}
+.form-card h1{font-weight:700}
+.eyebrow{color:var(--olive);font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.form-control:focus{border-color:var(--olive);box-shadow:0 0 0 .2rem #526b3f30}
+.btn-olive{background:var(--olive);border-color:var(--olive);color:#fff}
+.btn-olive:hover{background:var(--olive-dark);border-color:var(--olive-dark);color:#fff}
+.site-footer{background:#293125;color:#d9ddcf}
+.site-footer a{color:#f4f0e4;text-decoration:none}
+@media(max-width:575px){.form-card{padding:1.4rem}}
